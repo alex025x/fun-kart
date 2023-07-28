@@ -34,6 +34,18 @@ header {
         box-shadow: 0 3px 3px #d3d3d3 ;
     }
 
+
+
+    header a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+
+
+
+
+
 h1 {
     font-size: 3em;
         font-family: Exo, sans-serif;
@@ -42,8 +54,32 @@ h1 {
 }
 
 
+#menu {
+    font-size: 115%;
+    letter-spacing: 3px;
+    list-style-type: none ;
+}
+
+#menu > li {
+    margin: 1em;
+}
 
 
+.active {
+    border-bottom: 1px solid black ;
+}
+
+
+/* dropdown toggle navbar */
+
+nav {
+    position: absolute;
+    background-color: #ff3e3e;
+    left: 0;
+    padding: 0 2rem;
+    box-shadow: 0 2px 2px #d3d3d3;
+    display: none;
+}
 
 
 
@@ -56,13 +92,3 @@ footer {
     background-color: yellow;
 }
 
-.nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.nav ul li {
-  /* Remove the dots */
-  margin-left: 0px;
-}
