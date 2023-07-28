@@ -15,10 +15,10 @@
 
 body {
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    color: black;
-
+        display: flex;
+        flex-direction: column;
+        background-color: #f5f5f5;
+        color: black;
 }
 
 
@@ -30,6 +30,20 @@ header {
         font-family: Montserrat, sans-serif;
         padding: 20px;
         text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+        font-family: Exo, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+}
+
+
+
+
+
+
 
 main {
     background-color: lightcoral;
