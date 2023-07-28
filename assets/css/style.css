@@ -30,7 +30,9 @@ header {
         font-family: Montserrat, sans-serif;
         padding: 20px;
         text-align: center;
-}
+        z-index: 99;
+        box-shadow: 0 3px 3px #d3d3d3 ;
+    }
 
 h1 {
     font-size: 3em;
@@ -46,10 +48,21 @@ h1 {
 
 
 main {
-    background-color: lightcoral;
+    background-color: white;
     flex: 1 0 auto;
 }
 
 footer {
     background-color: yellow;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  /* Remove the dots */
+  margin-left: 0px;
 }
