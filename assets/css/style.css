@@ -25,8 +25,11 @@ body {
 
 
 header {
-    background-color: brown;
-}
+    background-color: #ff3e3e;
+        color: black;
+        font-family: Montserrat, sans-serif;
+        padding: 20px;
+        text-align: center;
 
 main {
     background-color: lightcoral;
