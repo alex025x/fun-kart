@@ -135,12 +135,12 @@ main {
     background-color: rgba(43, 33, 189, 0.568);
     font-size: 115%;
     position: absolute;
-    bottom: 440px;
+    bottom: 400px;
     right: 5%;
     width: 60%;
     min-height: 150px;
-    padding-top: 10px;
-    padding-left: 5px;
+    padding: 5px 10px;
+    
     
     
 }
@@ -172,6 +172,58 @@ footer {
     font-size: 160%;
     margin: 0 10px;
 }
+
+
+#reasons {
+    width: 70%;
+    margin: 40px auto;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#instructor-advantage>div,
+#personalized-training>div {
+    line-height: 25px;
+    margin-bottom: 45px;
+}
+
+
+
+#advantages p {
+    padding: 0 10px;
+}
+
+
+#advantages hr {
+    margin: 10px 0;
+    border-top: 1px solid blue;
+}
+
+p {
+    font-family: Montserrat;
+}
+
+#square-cover-bg {
+    background: url('../images/learnwithus2.jpg') no repeat top center / cover;
+    height: 90vw;
+    width:90vw;
+    margin-bottom: 20px;
+} 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -208,12 +260,18 @@ footer {
     #cover-text {
         width: 300px;
         right: 50px;
+       
         
     }
 
-         
 }
+
+
+
+
 
 @media screen and (min-width: 992px) {
     #menu>li:hover {
         border-bottom: 1px solid black;
+
+       
