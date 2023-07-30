@@ -185,10 +185,10 @@ p {
 
 
 #square-image-bg {
-    background: url(../images/gokarthero2.jpg) no-repeat top center/cover;
+    background: url(../images/gokarthero2.jpg) no-repeat center center / cover;
     height: 90vw;
     width: 90vw;
-    margin-bottom: 20px;
+    margin: 0 auto;
     max-width: 300px;
     max-height: 300px;
 }
@@ -478,10 +478,7 @@ iframe {
 
 
 @media screen and (min-width: 992px) {
-    #menu>li:hover {
-        border-bottom: 1px solid black;
-    }
-
+   
 
 
 
@@ -514,6 +511,7 @@ iframe {
         #instructor-advantagel>div {
             align-self: flex-end;
         }
+        
 
         
 
