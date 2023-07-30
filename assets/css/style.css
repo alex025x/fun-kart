@@ -52,7 +52,7 @@ header {
 
 
 h1 {
-    font-size: 3em;
+    font-size: 2em;
         font-family: Exo, sans-serif;
         text-transform: uppercase;
         letter-spacing: 0.2em;
@@ -84,7 +84,7 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #d3d3d3;
     display: none;
-    z-index: 99;
+    z-index: 98;
     top: 70px;
     width: 100%;
     overflow-y: auto;
@@ -119,3 +119,29 @@ footer {
     background-color: red;
 }
 
+/* media query for tablets and larger */
+@media screen and (min-width: 768px)  {
+    /* header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        top: -5px;
+
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 0.5rem;
+    }
+
+
+    .nav-toggle-label {
+        display: none;
+    }
+}
