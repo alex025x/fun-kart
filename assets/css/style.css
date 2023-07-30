@@ -14,14 +14,15 @@
 /* General styles */
 
 body {
-        display: flex;
-        flex-direction: column;
-        background-color: #f5f5f5;
-        color: black;
-        
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    color: black;
+
 }
 
-h1, h2 {
+h1,
+h2 {
     font-size: 2em;
     font-family: Exo, sans-serif;
     text-transform: uppercase;
@@ -30,39 +31,33 @@ h1, h2 {
 
 h3 {
     font-size: 1em;
-        font-family: Exo, sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 0.2em;
+    font-family: Exo, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
 }
 
 
 header {
     background-color: #ff3e3e;
-        color: black;
-        font-family: Montserrat, sans-serif;
-        font-size: 120%;
-        padding: 20px;
-        text-align: center;
-        z-index: 99;
-        box-shadow: 0 3px 3px #000000 ;
-        display: flex;
-        justify-content: space-between;
-        align-items:baseline;
-        margin-bottom: 0;
-    }
+    color: black;
+    font-family: Montserrat, sans-serif;
+    font-size: 120%;
+    padding: 20px;
+    text-align: center;
+    z-index: 99;
+    box-shadow: 0 3px 3px #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0;
+}
 
 
 
-    header a {
-        text-decoration: none;
-        color: inherit;
-    }
-
-    
-
-
-
-
+header a {
+    text-decoration: none;
+    color: inherit;
+}
 
 
 
@@ -71,10 +66,10 @@ header {
 #menu {
     font-size: 115%;
     letter-spacing: 3px;
-    list-style-type: none ;
+    list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin: 1em;
 }
 
@@ -95,7 +90,7 @@ nav {
     overflow-y: auto;
     max-height: calc(100vh - 60px);
 
-    
+
 }
 
 /* toggle for navbar */
@@ -117,9 +112,9 @@ nav {
 /* main */
 
 main {
-    
+
     flex: 1 0 auto;
-    
+
 }
 
 /* hero section */
@@ -140,13 +135,14 @@ main {
     width: 60%;
     min-height: 150px;
     padding: 5px 10px;
-    
-    
-    
+
+
+
 }
 
 
-#cover-text > h2, #cover-text > h3{
+#cover-text>h2,
+#cover-text>h3 {
     color: rgb(255, 255, 255);
 }
 
@@ -214,8 +210,7 @@ p {
 /*footer*/
 
 footer {
-    background-color:#ff3e3e
-    
+    background-color: #ff3e3e
 }
 
 #social-networks {
@@ -270,11 +265,144 @@ p {
 
 
 
+ /* style for sign up form */
+
+ .experience-dropdown {
+     position: relative;
+     display: inline-block;
+ }
+
+
+
+ .experience-dropdown::after {
+     position: absolute;
+     top: 50%;
+     right: 10px;
+ }
+
+ .dropdown {
+     appearance: none;
+     padding: 5px;
+     border: 1px solid #ccc;
+     background-color: #fff;
+     font-size: 14px;
+     width: 200px;
+ }
+
+ #signup {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+ }
+
+ /*applying Montserrat font to form elements*/
+ body {
+     font-family: 'Montserrat', sans-serif;
+ }
+
+ #signup-form {
+     width: 300px;
+ }
+
+ /* Additional styles for the form elements */
+ #signup-form h2 {
+     font-size: 24px;
+     margin-bottom: 10px;
+ }
+
+ #signup-form h3 {
+     font-size: 18px;
+     margin-bottom: 20px;
+ }
+
+ #signup-form label {
+     display: block;
+     font-size: 14px;
+     margin-bottom: 5px;
+ }
+
+ #signup-form button {
+     background-color: #fd0202;
+     border: none;
+     padding: 10px 20px;
+     border-radius: 5px;
+     font-size: 16px;
+     cursor: pointer;
+ }
+
+ #signup-form input,
+ #signup-form select {
+     width: 100%;
+     padding: 8px;
+     margin-bottom: 10px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     font-size: 14px;
+ }
+
+ #signup-form button:hover {
+     background-color: #fc9700ab;
+ }
+
+
+
+
+ /* contact information styling */
+
+#contact {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Style the contact info container */
+#contact-info {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Style the headings */
+h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+h3 {
+    font-size: 24px;
+    color: #555;
+}
+
+#contact-info p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+#contact-info i {
+    margin-right: 10px;
+}
+
+/*hover effect*/
+#contact-info p:hover {
+    color: #000;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
 
 
 /* media query for tablets and larger */
-@media screen and (min-width: 768px)  {
+@media screen and (min-width: 768px) {
+
     /* header */
     nav {
         display: block;
@@ -294,7 +422,7 @@ p {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 0.5rem;
     }
 
@@ -302,37 +430,33 @@ p {
     .nav-toggle-label {
         display: none;
     }
-    
+
     #cover-text {
         width: 300px;
         right: 50px;
-       
-        
+
+
     }
 
 
     /* advantage section */
 
-        #instructor-advantage ,
-                #personalized-training {
-                    display: flex;
-                    flex-direction: column;
-                    width: 100%;
-                }
+    #instructor-advantage,
+    #personalized-training {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 
-         #instructor-advantage > div,
-         #personalized-training > div {
-            width: 75%
-         }
+    #instructor-advantage>div,
+    #personalized-training>div {
+        width: 75%
+    }
 
-                 #personalized-training > div {
-                    text-align: end;
-                    align-self: flex-end;
-                 }
-
-               
-                 
-
+    #personalized-training>div {
+        text-align: end;
+        align-self: flex-end;
+    }
 
 }
 
@@ -342,38 +466,40 @@ p {
 
 @media screen and (min-width: 992px) {
     #menu>li:hover {
-        border-bottom: 1px solid black; }
-
-       
-
+        border-bottom: 1px solid black;
+    }
 
 
-        @media screen and (min-width: 1200px) {
+
+
+
+    @media screen and (min-width: 1200px) {
 
         /*advantages section*/
 
-            #advantages {
-                display: flex;
-                flex-direction: row;
-            }
-        
-            #advantages>div {
-                flex: 1;
-            }
-        
-            #advantages-image {
-                order: 0;
-            }
-        
-            #personalized-training {
-                order: 1;
-            }
-        
-            #personalized-training>div {
-                align-self: flex-start;
-            }
-        
-            #instructor-advantagel>div {
-                align-self: flex-end;
-            }
-        
+        #advantages {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #advantages>div {
+            flex: 1;
+        }
+
+        #advantages-image {
+            order: 0;
+        }
+
+        #personalized-training {
+            order: 1;
+        }
+
+        #personalized-training>div {
+            align-self: flex-start;
+        }
+
+        #instructor-advantagel>div {
+            align-self: flex-end;
+        }
+
+    }

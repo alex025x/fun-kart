@@ -45,7 +45,9 @@
       </a>
 
       <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-      <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars" style="color: #000000;"></i></label>
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars" style="color: #000000"></i
+      ></label>
 
       <nav>
         <ul id="menu">
@@ -63,139 +65,191 @@
     </header>
 
     <!-- Main content -->
-    
+
     <main>
-        
-        <section id="hero"> 
-            <div id="cover-text">
-                <h2>Fun Kart</h2>
-                <h3>Learn Karting the Fun Way</h3>
+      <section id="hero">
+        <div id="cover-text">
+          <h2>Fun Kart</h2>
+          <h3>Learn Karting the Fun Way</h3>
+        </div>
+      </section>
+
+      <section id="reasons">
+        <h2>Why learn karting with us?</h2>
+        <div id="advantages">
+          <div id="instructor-advantage">
+            <div>
+              <h3>
+                Expert Instructors<i class="fa-solid fa-handshake-simple"></i>
+              </h3>
+              <hr />
+              <p>
+                Learn from skilled instructors who have years of experience in
+                competitive racing. They'll teach you the right techniques and
+                safety measures to excel on the track.
+              </p>
             </div>
+            <div>
+              <h3>
+                Cutting-edge facility<i class="fa-solid fa-people-roof"></i>
+              </h3>
+              <hr />
+              <p>
+                Training in a state-of-the-art karting facility with the highest
+                safety standards. Our machinery and courses offer the ideal
+                setting for an exciting and safe learning experience.
+              </p>
+            </div>
+          </div>
 
-        </section>
+          <div id="personalized-training">
+            <div>
+              <h3>Personalized training<i class="fa-solid fa-user"></i></h3>
+              <hr />
+              <p>
+                Enjoy personalized coaching tailored to your skill level and
+                goals. Whether you're a beginner or aiming for championships,
+                our instructors will help you reach your full potential.
+              </p>
+            </div>
+            <div>
+              <h3>
+                Fun-filled learning<i class="fa-solid fa-people-group"></i>
+              </h3>
+              <hr />
+              <p>
+                Gain useful teamwork and sportsmanship qualities while enjoying
+                the thrill of racing. For both children and adults, a good time
+                is guaranteed in our encouraging and welcoming environment.
+              </p>
+            </div>
+          </div>
 
-        
-        <section id="reasons">
-            <h2>Why learn karting with us?</h2>
-            <div id="advantages">
-                <div id="instructor-advantage">
-                    <div>
-                        <h3>Expert Instructors<i class="fa-solid fa-handshake-simple"></i></h3>
-                        <hr>
-                        <p>Learn from skilled instructors who have years of experience in competitive racing. They'll teach you the right
-                        techniques and safety measures to excel on the track.</p>
-                    </div>
-                    <div>
-                        <h3>Cutting-edge facility<i class="fa-solid fa-people-roof"></i></h3>
-                        <hr>
-                        <p>Training in a state-of-the-art karting facility with the highest safety standards. Our machinery and courses offer the
-                        ideal setting for an exciting and safe learning experience.</p>
-                    </div>
-                </div>
-                
-                <div id="personalized-training">
-
-                    <div>
-                        <h3>Personalized training<i class="fa-solid fa-user"></i></h3>
-                        <hr>
-                        <p>Enjoy personalized coaching tailored to your skill level and goals. Whether you're a beginner or aiming for
-                        championships, our instructors will help you reach your full potential.</p>
-                    </div>
-                    <div>
-                        <h3>Fun-filled learning<i class="fa-solid fa-people-group"></i></h3>
-                        <hr>
-                        <p>Gain useful teamwork and sportsmanship qualities while enjoying the thrill of racing. For both children and adults, a
-                        good time is guaranteed in our encouraging and welcoming environment.</p>
-                    </div>
-
-                    </div>
-
-                    <div id="advantages-image"></div>
-                        <div id="square-image-bg"></div>
-
-                </div>
-
-        </section>
-
+          <div id="advantages-image"></div>
+          <div id="square-image-bg"></div>
+        </div>
+      </section>
     </main>
 
-
     <section id="signup">
-        <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
-            <h2><i class="fa-solid fa-flag-checkered"></i>Sign up!</h2>
-            <label for="first_name">First Name</label>
-            <input type="text" name="first_name" id="first_name" class="text-input" required>
-            <br>
-            <label for="last_name">Last Name</label>
-            <input type="text" name="last_name" id="last_name" class="text-input" required>
-            <br>
-            <label for="email_address">Email Address</label>
-            <input type="email" name="email_address" id="email_address" class="text-input" required>
-            <br>
-            <label for="experience">Experience</label>
-            <div class="experience-dropdown">
-                <select name="experience" id="experience" class="dropdown" required>
-                    <option value="" disabled selected>Select your experience level</option>
-                    <option value="beginner">Beginner</option>
-                    <option value="intermediate">Intermediate</option>
-                    <option value="advanced">Advanced</option>
-                </select>
-            </div>
-            <button type="submit" class="join-button">Let's Race!</button>
-            </form>
-            </section>
+      <form
+        id="signup-form"
+        method="POST"
+        action="https://formdump.codeinstitute.net"
+      >
+        <h2><i class="fa-solid fa-flag-checkered"></i>Sign up!</h2>
+        <h3>First class is free of charge</h3>
+        <label for="first_name">First Name</label>
+        <input
+          type="text"
+          name="first_name"
+          id="first_name"
+          class="text-input"
+          required
+        />
+        <br />
+        <label for="last_name">Last Name</label>
+        <input
+          type="text"
+          name="last_name"
+          id="last_name"
+          class="text-input"
+          required
+        />
+        <br />
+        <label for="email_address">Email Address</label>
+        <input
+          type="email"
+          name="email_address"
+          id="email_address"
+          class="text-input"
+          required
+        />
 
+        <br />
 
+        <label for="experience">Experience</label>
+        <div class="experience-dropdown">
+          <select name="experience" id="experience" class="dropdown" required>
+            <option value="" disabled selected>
+              Select your experience level
+            </option>
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+          </select>
+        </div>
 
-    </style>
+        <button type="submit" class="join-button">Let's Race!</button>
+      </form>
+    </section>
 
-
+    <!--contact section-->
+    <section id="contact">
+        <div id="contact-info">
+            <h2>Contact Us</h2>
+            <h3>Get in touch with us</h3>
+            <p><i class="fa-solid fa-map-marker"></i>123 Fun Street, Kartland</p>
+            <p><i class="fa-solid fa-phone"></i>Phone: +123456-7890</p>
+            <p><i class="fa-solid fa-envelope"></i>Email: info@funkart.com</p>
+        </div>
+    </section>
 
 
     <!-- Footer -->
     <footer>
       <ul id="social-networks">
-       
         <footer>
-            <ul id="social-networks">
-                <li>
-                    <a href="https://facebook.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our Facebook page (open in a new tab)">
-                        <i class="fa-brands fa-facebook-f" style="color: #000000;"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://instagram.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our Instagram page (open in a new tab)">
-                        <i class="fa-brands fa-instagram" style="color: #000000;"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our Twitter page (open in a new tab)">
-                        <i class="fa-brands fa-twitter" style="color: #000000;"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://youtube.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our Youtube page (open in a new tab)">
-                        <i class="fa-brands fa-youtube" style="color: #000000;"></i>
-                    </a>
-                </li>
-            </ul>
+          <ul id="social-networks">
+            <li>
+              <a
+                href="https://facebook.com/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Visit our Facebook page (open in a new tab)"
+              >
+                <i class="fa-brands fa-facebook-f" style="color: #000000"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://instagram.com/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Visit our Instagram page (open in a new tab)"
+              >
+                <i class="fa-brands fa-instagram" style="color: #000000"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Visit our Twitter page (open in a new tab)"
+              >
+                <i class="fa-brands fa-twitter" style="color: #000000"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://youtube.com/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Visit our Youtube page (open in a new tab)"
+              >
+                <i class="fa-brands fa-youtube" style="color: #000000"></i>
+              </a>
+            </li>
+          </ul>
         </footer>
-
-
-
-
-
       </ul>
     </footer>
 
-
-
     <!--font awesome kit-->
-    <script src="https://kit.fontawesome.com/46c3c47177.js" crossorigin="anonymous"></script>
-
+    <script
+      src="https://kit.fontawesome.com/46c3c47177.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
