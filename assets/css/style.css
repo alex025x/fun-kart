@@ -32,6 +32,9 @@ header {
         text-align: center;
         z-index: 99;
         box-shadow: 0 3px 3px #d3d3d3 ;
+        display: flex;
+        justify-content: space-between;
+        align-items:baseline;
     }
 
 
@@ -40,6 +43,8 @@ header {
         text-decoration: none;
         color: inherit;
     }
+
+    
 
 
 
@@ -76,9 +81,30 @@ nav {
     position: absolute;
     background-color: #ff3e3e;
     left: 0;
-    padding: 0 2rem;
+    padding: 0 1rem;
     box-shadow: 0 2px 2px #d3d3d3;
     display: none;
+    z-index: 99;
+    top: 70px;
+    width: 100%;
+    overflow-y: auto;
+    max-height: calc(100vh - 60px);
+
+    
+}
+
+/* toggle for navbar */
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 
@@ -86,9 +112,10 @@ nav {
 main {
     background-color: white;
     flex: 1 0 auto;
+    margin: top 50px;
 }
 
 footer {
-    background-color: yellow;
+    background-color: red;
 }
 
