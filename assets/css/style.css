@@ -399,6 +399,19 @@ a:hover {
 }
 
 
+/* style for map */
+iframe {
+    width: 100%;
+    max-width: 300px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+/* center map container */
+#contact-info {
+    text-align: center;
+}
+
 
 /* media query for tablets and larger */
 @media screen and (min-width: 768px) {
@@ -501,5 +514,7 @@ a:hover {
         #instructor-advantagel>div {
             align-self: flex-end;
         }
+
+        
 
     }
