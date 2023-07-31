@@ -21,8 +21,7 @@ body {
 
 }
 
-h1,
-h2 {
+h1, h2 {
     font-size: 2em;
     font-family: Exo, sans-serif;
     text-transform: uppercase;
@@ -194,13 +193,6 @@ p {
 
 }
 
-#advantages-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
 
 
 
@@ -218,6 +210,7 @@ footer {
     list-style-type: none;
     margin: 0 10px;
     display: flex;
+    max-width: 200px;
 
 }
 
