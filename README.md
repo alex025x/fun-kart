@@ -34,13 +34,15 @@ Interested users can sign up for the karting lessons using the sign-up form. The
 
 ### 4. Contact Us
 
-![Contact Us](./assets/images/contact-us.png)
+![Contact Us](./assets/readme-images/contact-us.png)
 
 The contact section provides essential contact information for Fun Kart. Users can reach out to us through various ways, such as phone, email, and physical address. Additionally, there is a embedded Google Maps map to help users locate the karting facility easily.
 
-## Mobile-First Development Approach
+## Mobile-First Development Approach 
 
-Fun Kart was developed using a mobile-first approach, ensuring that the website is fully optimized for mobile devices and smaller screens. As a result, the web application is responsive and user-friendly on smartphones and tablets, providing a seamless experience for users across different devices.
+![Mobile-First Development Approach](./assets/readme-images/mobileapproach.png)
+
+Fun Kart was developed using a mobile-first approach, ensuring that the website is fully optimized for mobile devices and smaller screens. When the website is used from a mobile device the navigation menu is opened by clicking the burger icon. As a result, the web application is responsive and user-friendly on smartphones and tablets, providing a seamless experience for users across different devices.
 
 ---
 
