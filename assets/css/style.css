@@ -507,6 +507,7 @@ iframe {
         margin: 0 auto;
         max-width: 560px;
         max-height: 300px;
+        padding-right: 30px;
 
 
     }
