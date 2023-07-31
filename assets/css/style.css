@@ -130,6 +130,7 @@ main {
     position: relative;
 }
 
+
 #cover-text {
     background-color: rgba(43, 33, 189, 0.568);
     font-size: 115%;
@@ -497,20 +498,20 @@ iframe {
 
 @media screen and (min-width: 1200px) {
 
-    
+
 
     #go-kart-video iframe {
-            position: absolute;
-            height: 90vw;
-            width: 90vw;
-            margin: 0 auto;
-            max-width: 560px;
-            max-height: 300px;
-            
-    
-        }
+        position: absolute;
+        height: 90vw;
+        width: 90vw;
+        margin: 0 auto;
+        max-width: 560px;
+        max-height: 300px;
 
-        /*advantages section*/
+
+    }
+
+    /*advantages section*/
 
     #advantages {
         display: flex;
