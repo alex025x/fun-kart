@@ -21,6 +21,8 @@ body {
 
 }
 
+
+
 h1,
 h2 {
     font-size: 2em;
@@ -61,7 +63,7 @@ header a {
 
 
 
-
+/* styled the menu using information from the Love Running project */
 
 #menu {
     font-size: 115%;
@@ -76,6 +78,8 @@ header a {
 
 
 /* dropdown toggle navbar */
+
+/* styled the nav using information from the Love Running project */
 
 nav {
     position: absolute;
@@ -196,8 +200,6 @@ p {
 
 
 
-
-
 /*footer*/
 
 footer {
@@ -220,6 +222,9 @@ footer {
     margin: 0 10px;
 }
 
+
+
+/* reasons section */
 
 #reasons {
     width: 70%;
@@ -258,6 +263,9 @@ p {
 
 
 /* style for sign up form */
+
+/* with the help of watching the Coders Coffeehouse video I styled this sign up
+    form section */
 
 .experience-dropdown {
     position: relative;
@@ -343,6 +351,7 @@ body {
 
 /* contact information styling */
 
+
 #contact {
 
     background-color: #f9f9f9;
@@ -406,7 +415,13 @@ iframe {
 }
 
 
+
+
+
 /* media query for tablets and larger */
+
+/* this media query was partially coded using help and information from the Love Running project */
+
 @media screen and (min-width: 768px) {
 
     /* header */
@@ -476,11 +491,11 @@ iframe {
 
 
 
-
+/* this media query was partially coded using help and information from the Love Running project */
 
 @media screen and (min-width: 1200px) {
 
-    /*advantages section*/
+    
 
     #square-image-bg {
         background: url(../images/gokarthero2.jpg) no-repeat center center / cover;
@@ -493,6 +508,8 @@ iframe {
         padding-left: 20%;
 
     }
+
+        /*advantages section*/
 
     #advantages {
         display: flex;
