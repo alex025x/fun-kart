@@ -40,7 +40,6 @@ The contact section provides essential contact information for Fun Kart. Users c
 
 ## Mobile-First Development Approach 
 
-![Mobile-First Development Approach](./assets/readme-images/mobileapproach.png)
 
 Fun Kart was developed using a mobile-first approach, ensuring that the website is fully optimized for mobile devices and smaller screens. When the website is used from a mobile device the navigation menu is opened by clicking the burger icon. As a result, the web application is responsive and user-friendly on smartphones and tablets, providing a seamless experience for users across different devices.
 
