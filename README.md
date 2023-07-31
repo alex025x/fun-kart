@@ -1,6 +1,6 @@
 # Fun Kart - Karting Lessons for All Ages and Skill Levels
 
-![Fun Kart]
+[Fun Kart]
 
 Fun Kart is a website that offers karting lessons for people of all ages and skill levels. No matter if you are a beginner looking to experience the thrill of karting or an advanced racer aiming for championships, Fun Kart has something to offer for everyone. Our expert instructors, state-of-the-art facility, personalized training, and fun-filled learning environment ensure an exciting and safe learning experience for all.
 
