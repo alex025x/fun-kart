@@ -1,48 +1,101 @@
-# Fun Kart - Karting Lessons for All Ages and Skill Levels
+# Fun Kart - Go-Karting Lessons
 
-# Fun Kart
+As a former Go-Kart driver myself that still enjoys Go-Karting from time to time, I came up with the idea of creating a Website where people can sign up for Go-Karting lessons. Fun Kart is a contemporary platform dedicated to the exhilarating world of karting. This HTML and CSS-based website enables enthusiasts, whether novices or pros, to book karting lessons effortlessly. Dive into the world of karting with professional instructors and state-of-the-art facilities, all set to elevate your racing experience. Whether it's your first ride or your quest for championship glory, Fun Kart is your go-to digital pit stop for unforgettable karting adventures.
 
-Fun Kart is a website that offers karting lessons for people of all ages and skill levels. No matter if you are a beginner looking to experience the thrill of karting or an advanced racer aiming for championships, Fun Kart has something to offer for everyone. Our expert instructors, state-of-the-art facility, personalized training, and fun-filled learning environment ensure an exciting and safe learning experience for all.
+Link to live site: https://alex025x.github.io/fun-kart/
+
 
 ## Features
 
-### 1. Hero Section
+### General Features
 
-![Hero Section](./assets/readme-images/hero-section.png)
+**Hero Section**
 
-The hero section on the homepage showcases the essence of Fun Kart with an attractive background image and a captivating cover text. It sets the tone for the rest of the website and introduces users to the exciting world of karting.
+The main section of the homepage embodies the spirit of Fun Kart through a striking background photo and compelling headline text. This section establishes the website's vibe and welcomes users to the thrilling realm of karting. Additionally, there's a navigation bar for quick site traversal. Each navigation link is highlighted with a hover line, guiding users to their desired sections like About Us, Sign Up, and Contact.
+
+![Hero Section](./assets/readme-images/start-page.png)
+
 
 ### 2. Why Learn Karting with Us?
 
-![Advantages](./assets/readme-images/advantageswithus.png)
+In this section, we highlight the key advantages of choosing Fun Kart for karting lessons. The reasons are listed in 2 columns each with 2 rows. In the middle of them is a video showing a video of a karting lesson.
 
-In this section, we highlight the key advantages of choosing Fun Kart for karting lessons. It includes four advantages:
+![Advantages](./assets/readme-images/about-us.png)
 
-- Expert Instructors: Learn from skilled instructors with years of competitive racing experience. They will teach you the right techniques and safety measures to excel on the track.
 
-- Cutting-edge Facility: Train in a state-of-the-art karting facility with the highest safety standards. Our machinery and courses offer the ideal setting for an exciting and safe learning experience.
-
-- Personalized Training: Enjoy personalized coching tailored to your skill level and goals. Our instructors will help you reach your full potential, no matter your current expertise.
-
-- Fun-filled Learning: Gain teamwork and sportsmanship qualities while enjoying the thrill of racing. Our encouraging and welcoming environment ensures a good time for both children and adults.
 
 ### 3. Sign Up Form
 
-![Sign Up Form](./assets/readme-images/sign-up-form.png)
-
 Interested users can sign up for the karting lessons using the sign-up form. The form requests basic information such as first name, last name, email address, and experience level. The first class is free of charge, calling users to take the first step in their karting journey.
+
+![Sign Up Form](./assets/readme-images/sign-up.png)
 
 ### 4. Contact Us
 
-![Contact Us](./assets/readme-images/contact-us.png)
-
 The contact section provides essential contact information for Fun Kart. Users can reach out to us through various ways, such as phone, email, and physical address. Additionally, there is a embedded Google Maps map to help users locate the karting facility easily.
+
+![Contact Us](./assets/readme-images/contact-section.png)
+
+### 5. Social Links
+
+In the footer section there are social media icons used from favicon so that users can access various social profiles of the Go-Karting school.
+
+![SocialLinks](./assets/readme-images/footer-section.png)
+
 
 ## Mobile-First Development Approach 
 
+Fun Kart was developed using a mobile-first approach, ensuring that the website is fully optimized for mobile devices and smaller screens. As of course probably most users will sign up for the lessons using a mobile device, when the website is used from such device the navigation menu is opened by clicking the burger icon. As a result, the web application is responsive and user-friendly.
+![navbarclosed](./assets/readme-images/navbar-phone-closed.png)
 
-Fun Kart was developed using a mobile-first approach, ensuring that the website is fully optimized for mobile devices and smaller screens. When the website is used from a mobile device the navigation menu is opened by clicking the burger icon. As a result, the web application is responsive and user-friendly on smartphones and tablets, providing a seamless experience for users across different devices.
+![navbaropened](./assets/readme-images/navbar-phone-opened.png)
 
----
 
-*This project was developed with inspiration from Love Running and Coders Coffeehouse projects.*
+### Features Left to Implement
+
+- Feedback and Reviews: A section for students to leave feedback and reviews about their lessons and instructors.
+- Instructor Profiles: Detailed profiles of karting instructors with their qualifications, specializations, and student reviews.
+- E-learning Resources: Videos, articles, and other resources that can help students grasp the basics before attending a physical session.
+- Photo Gallery: Showcasing photos from previous lessons, events, and races.
+
+## Testing
+
+The project has undergone extensive testing to ensure that all features work as intended. The site has been tested on various browsers and screen sizes to ensure responsiveness and compatibility.
+
+### Validator Testing
+
+- **HTML:** Passed through the official W3C validator with no errors.
+- **CSS:** No errors found when passing through the official (Jigsaw) validator.
+
+### Unfixed Bugs
+
+Currently, there are no unfixed bugs in the project, and all features work as expected.
+
+### Wireframe
+
+The wireframe was created using Figma, aside from a couple of small changes the structure is the same. The idea for the burger icon came from the “Love Running” Walkthrough Project that I did at Code Institute. 
+
+![wireframe1](./assets/readme-images/wireframe-part1.png)
+
+![wireframe2](./assets/readme-images/wireframe-part2.png)
+
+![wireframephone](./assets/readme-images/phone-wireframe.png)
+
+## Deployment
+
+The project has been deployed to GitHub Pages for easy access. You can access the live version of the game here: [Fun Kart](https://alex025x.github.io/fun-kart/).
+
+## Credits
+
+**Content:**
+
+- Some inspiration for certain aspects from the Fun Kart project came from Code Institute’s “Love Running” Walkthrough Project.
+- The following video partially helped me with creating the sign-up form: https://www.youtube.com/watch?v=lacpTQuE9u8
+
+**Media:**
+
+- The favicon was created using Procreate on my iPad.
+-The photo from the hero section was used from a Website called “Unsplash”
+-The video in the “About Us” section was used from Youtube:
+https://www.youtube.com/watch?v=5moH0gXC5iQ
+- Icons used in the footer were sourced from Font Awesome.
