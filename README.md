@@ -46,6 +46,8 @@ In the footer section there are social media icons used from favicon so that use
 ## Mobile-First Development Approach 
 
 Fun Kart was developed using a mobile-first approach, ensuring that the website is fully optimized for mobile devices and smaller screens. As of course probably most users will sign up for the lessons using a mobile device, when the website is used from such device the navigation menu is opened by clicking the burger icon. As a result, the web application is responsive and user-friendly.
+
+
 ![navbarclosed](./assets/readme-images/navbar-phone-closed.png)
 
 ![navbaropened](./assets/readme-images/navbar-phone-opened.png)
